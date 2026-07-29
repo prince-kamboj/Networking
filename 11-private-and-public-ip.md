@@ -331,25 +331,6 @@ All employees access the Internet through that single public IP using NAT.
 
 ---
 
-# Cybersecurity Perspective
-
-Understanding private and public IP addresses is crucial for securing networks.
-
-Best practices include:
-
-- Never expose internal devices directly to the Internet unless necessary.
-- Use firewalls to filter incoming and outgoing traffic.
-- Place public-facing servers in a DMZ.
-- Use VPNs for secure remote access.
-- Disable unnecessary port forwarding.
-- Monitor public IPs for suspicious activity.
-- Keep routers updated with the latest firmware.
-
-Private IP addresses provide isolation, but they are **not a substitute for proper security controls**.
-
----
-
-
 # Summary
 
 Private IP addresses are used for communication within local networks, while public IP addresses enable communication over the Internet. Routers use NAT to translate private addresses into a public address, allowing multiple devices to share a single Internet connection. Understanding these concepts is fundamental for networking, cloud computing, and cybersecurity.
